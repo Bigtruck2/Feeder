@@ -9,8 +9,7 @@ public class Feeder {
     public Feeder(int currentFood){
         this.currentFood = currentFood;
     }
-    public Feeder(){
-    }
+
     /**
      * This standard amount consumed is
      * between 10 and 50 grams of food, inclusive, in 1-gram increments.
