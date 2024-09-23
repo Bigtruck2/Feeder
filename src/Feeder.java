@@ -35,12 +35,12 @@ public class Feeder {
         if(numBirds <= 0 && numDays <= 0) return 0;
         int counter = 0;
         for(int i=0;i<numDays;i++){
-            simulateOneDay(numBirds);
             if(currentFood>0){
                 counter++;
             }else{
                 return counter;
             }
+            simulateOneDay(numBirds);
         }
         return counter;
     }
